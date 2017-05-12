@@ -1,0 +1,13 @@
+header{
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(rgba(188,209,227,1),rgba(255,255,255,1));
+  width: 80%;
+  margin: auto;
+  height: 160px;
+
+}
+
+img{
+  height: 100px;
+}
