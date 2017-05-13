@@ -56,13 +56,7 @@ export const dbData = {
             "price": "10",
             "longDescription":"Rustic but sturdy, this chair fits naturally in many places in the home both indoors and outdoors, making it an easy go-to. Although it’s weathered a number of storms, this grandfather’s chair is still good condition."
             },
-          {
-            "location": "Toronto",
-            "description": "Magenta Office Chair",
-            "imgUrl": "http://pulalohome.com/wp-content/uploads/2017/03/spectacular-inspiration-used-office-chairs-delightful-design-used-office-seating-and-chairs.jpg",
-            "price": "30",
-            "longDescription":"Short and dainty, your office could use a chair like this that fits into small spaces, takes up less room than traditional office chairs, and slides in tandem with your busy lifestyle. Although it has a small tear in the back, the low price makes this good condition chair an easy buy."
-    },
+    
           {
             "location": "Toronto",
             "description": "White Kitchen Cabinets",
