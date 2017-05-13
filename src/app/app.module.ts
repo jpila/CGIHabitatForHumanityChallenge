@@ -16,6 +16,9 @@ import {routerConfig} from './router.config'
 import {ProductsService} from './shared/model/products.service';
 import { ShopComponent } from './shop/shop.component'
 import 'rxjs/add/operator/do';
+import { FooterComponent } from './footer/footer.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import { NewProductComponent } from './new-product/new-product.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +26,9 @@ import 'rxjs/add/operator/do';
     TopHeaderComponent,
     SubHeaderComponent,
     HomeComponent,
-    ShopComponent
+    ShopComponent,
+    FooterComponent,
+    NewProductComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,8 @@ import 'rxjs/add/operator/do';
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
-    RouterModule.forRoot(routerConfig)
+    RouterModule.forRoot(routerConfig),
+    ReactiveFormsModule
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent]

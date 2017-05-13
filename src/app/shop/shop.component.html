@@ -1,6 +1,23 @@
+<sub-header></sub-header>
+
+<header>
+  <h1>Featured Products</h1>
+  <button routerLink='addproduct'>Add New Product</button>
+</header>
 <div class=shop-wrapper>
 <div class=container *ngFor="let product of (products$ | async)">
   <h2>{{product.name}}</h2>
   <img src="{{product.imgUrl}}" alt="">
+  <h3>${{product.price}}.00</h3>
+  <h3>Pick up in {{product.location}}</h3>
+  <p>
+    {{product.longDescription}}
+  </p>
+  <div class=button-container>
+  <button>Add to Cart</button>
+  </div>
 </div>
 </div>
+
+<router-outlet></router-outlet>
+<footer></footer>

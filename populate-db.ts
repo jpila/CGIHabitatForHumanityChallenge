@@ -24,14 +24,13 @@ export function populateDatabase() {
 const productsRef = database().ref('Products')
 
 dbData.Products.forEach( product => {
-
   console.log('adding products', product.location);
-
   const productRef = productsRef.push({
       name: product.description,
       imgUrl: product.imgUrl,
       location: product.location,
-      price: product.price
+      price: product.price,
+      longDescription: product.longDescription
   });
 });
 
