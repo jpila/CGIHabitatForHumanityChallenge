@@ -1,0 +1,6 @@
+<div class=shop-wrapper>
+<div class=container *ngFor="let product of (products$ | async)">
+  <h2>{{product.name}}</h2>
+  <img src="{{product.imgUrl}}" alt="">
+</div>
+</div>

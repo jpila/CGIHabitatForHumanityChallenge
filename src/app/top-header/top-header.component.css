@@ -11,3 +11,20 @@ header{
 img{
   height: 100px;
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  background-color: #44A63A;
+}
+
+a{
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: white;
+  padding: 0px 5px;
+  border-right: 1px solid rgba(255,255,255,0.4);
+  border-left: 1px solid rgba(255,255,255,0.4);
+}

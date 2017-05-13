@@ -1,0 +1,12 @@
+.shop-wrapper{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+}
+
+img{
+  max-width: 200px;
+}
+.container{
+}
