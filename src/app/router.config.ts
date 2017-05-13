@@ -14,15 +14,14 @@ export const routerConfig: Route[] =[
     redirectTo: 'home',
     pathMatch: 'full'
   },
-
+  {
+    path: 'addproduct',
+    component: NewProductComponent
+  },
   {
     path: 'shop',
     component: ShopComponent,
     children: [
-      {
-        path: 'addproduct',
-        component: NewProductComponent
-      }
     ]
   },
 

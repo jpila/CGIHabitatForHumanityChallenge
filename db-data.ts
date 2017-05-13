@@ -29,32 +29,123 @@ export const dbData = {
           "longDescription": "You only get one shot, do not miss your chance to blow. your cash. Whichever comes first, for better or worse. All over your shit in shamble. Jimminy two time respect mine. spin. Slim Shady, brain dead like Jim Brady. Now some of you might still be in that place. You own it, you better never let it go. You own it, you better never let it go. If you're trying to get out, just follow me. And all those who look down on me I'm tearing down your balcony."
         },
         {
-          "location": "Moncton",
-          "description": "Turquiose Couch",
-          "imgUrl": "https://images.britcdn.com/wp-content/uploads/2015/01/turquoise-couch-645x342.jpg",
-          "price": "100",
-          "longDescription": "You only get one shot, do not miss your chance to blow. your cash. Whichever comes first, for better or worse. All over your shit in shamble. Jimminy two time respect mine. spin. Slim Shady, brain dead like Jim Brady. Now some of you might still be in that place. You own it, you better never let it go. You own it, you better never let it go. If you're trying to get out, just follow me. And all those who look down on me I'm tearing down your balcony."
-        },
+            "location": "Vaughan",
+            "description": "Teal Dining Room Set",
+            "imgUrl": "http://www.happyfurnitureonline.com/images/usedfurniture/usedfurniture-fullsize/used-furn1.jpg",
+            "price": "500",
+            "longDescription":"This brand new dining room set comes with 4 chairs, a table, and dish cabinet. With a vintage and homely look, you can add character and charm to your new home with these gorgeous pieces."
+          },
+          {
+            "location": "Vaughan",
+            "description": "Steel Undermount Kitchen Sink",
+            "imgUrl": "http://interiors.josianneparadis.com/wp-content/uploads/2016/10/Best-Undermount-Kitchen-Sink.jpg",
+            "price": "200",
+            "longDescription":"This undermount kitchen sink is in fantastic condition. Fits seamlessly into a countertop with a convenient rotating faucet and soap dispenser to complete any kitchen. L 17-⅛ in, W 17- ⅛ in, H 6 in, Drain size: 1-½ in."
+          },
+          {
+            "location": "Vaughan",
+            "description": "Smoky Green Chair",
+            "imgUrl": "http://vignette2.wikia.nocookie.net/joke-battles/images/8/80/BigChair.jpg/revision/latest?cb=20161223014315",
+            "price": "50",
+            "longDescription":"Wide and oversized, this large chair is a comfortable addition to the modern home. Make a statement with this smoky green chair in perfect condition at an unbelievably low price."
+          },
+          {
+            "location": "Vaughan",
+            "description": "Rustic Farm Chair",
+            "imgUrl": "http://woontheater.be/wp-content/uploads/2013/06/WOOD-CHAIR-OLD.jpg",
+            "price": "10",
+            "longDescription":"Rustic but sturdy, this chair fits naturally in many places in the home both indoors and outdoors, making it an easy go-to. Although it’s weathered a number of storms, this grandfather’s chair is still good condition."
+            },
+          {
+            "location": "Toronto",
+            "description": "Magenta Office Chair",
+            "imgUrl": "http://pulalohome.com/wp-content/uploads/2017/03/spectacular-inspiration-used-office-chairs-delightful-design-used-office-seating-and-chairs.jpg",
+            "price": "30",
+            "longDescription":"Short and dainty, your office could use a chair like this that fits into small spaces, takes up less room than traditional office chairs, and slides in tandem with your busy lifestyle. Although it has a small tear in the back, the low price makes this good condition chair an easy buy."
+    },
+          {
+            "location": "Toronto",
+            "description": "White Kitchen Cabinets",
+            "imgUrl": "http://abtack.com/wp-content/uploads/2017/04/top-makeover-monday-i-painted-my-kitchen-cabinets-shades-of-blue-pertaining-to-used-white-kitchen-cabinets-remodel.jpg",
+            "price": "400",
+            "longDescription":"Remodeling the kitchen is simple when you can use this complete set of white kitchen cabinets. This set came from a house recently demolished for our Habitat for Humanity ownership program. It was in such good condition, we couldn’t let it go. Make it part of your home today."
+    },
         {
-          "location": "Quebec",
-          "description": "Turquiose Couch",
-          "imgUrl": "https://images.britcdn.com/wp-content/uploads/2015/01/turquoise-couch-645x342.jpg",
-          "price": "200",
-          "longDescription": "And we'll keep on fighting till the end. And we mean to go on and on and on and on. Nothing much to say. A fleeting vision of her crystal seas. You big disgrace. We are the champions, my friends."
-        },
+            "location": "Toronto",
+            "description": "Cream Couch",
+            "imgUrl": "http://andifurniture.com/wp-content/uploads/2015/09/used-couch-reygll11k.jpg",
+            "price": "100",
+            "longDescription":"This couch has been fully loved and is looking for a new place to call home. Even with a few small tears in the seating area, it is in good condition."
+    },
         {
-          "location": "Toronto",
-          "description": "Turquiose Couch",
-          "imgUrl": "https://images.britcdn.com/wp-content/uploads/2015/01/turquoise-couch-645x342.jpg",
-          "price": "175",
-          "longDescription": "You only get one shot, do not miss your chance to blow. your cash. Whichever comes first, for better or worse. All over your shit in shamble. Jimminy two time respect mine. spin. Slim Shady, brain dead like Jim Brady. Now some of you might still be in that place. You own it, you better never let it go. You own it, you better never let it go. If you're trying to get out, just follow me. And all those who look down on me I'm tearing down your balcony."
-        },
+            "location": "Brampton",
+            "description": "U Leather Couch",
+            "imgUrl": "https://s-media-cache-ak0.pinimg.com/736x/28/f0/92/28f092545017e0bc166858f7cc2d4e98.jpg",
+            "price": "500",
+            "longDescription":"This deep brown, U Leather Couch fills any home entertainment needs as it comfortably seats up to 8 people. Small living rooms are no problem for the form fitting bend of the couch. In great condition."
+    },
         {
-          "location": "Calgary",
-          "description": "Turquiose Couch",
-          "imgUrl": "https://images.britcdn.com/wp-content/uploads/2015/01/turquoise-couch-645x342.jpg",
-          "price": "100",
-          "longDescription": "And we'll keep on fighting till the end. And we mean to go on and on and on and on. Nothing much to say. A fleeting vision of her crystal seas. You big disgrace. We are the champions, my friends."
-        },
+            "location": "Brampton",
+            "description": "Fridge",
+            "imgUrl": "http://1.bp.blogspot.com/_zk76bKAcLgI/TGl1GZLouyI/AAAAAAAAA2U/4NN_k_X9l_4/s1600/Girl+Room+Wallpaper+8.16.2010+032.jpg",
+            "price": "400",
+            "longDescription":"At this low price, a second fridge in your basement, garage, or backyard is doable and convenient. Shelves not included. In perfect working condition."
+    },
+        {
+            "location": "Brampton",
+            "description": "Westinghouse Stove",
+            "imgUrl": "http://theappliancewarehouse.ca/images/DSCF0102.JPG",
+            "price": "400",
+            "longDescription":"One of our Habitat families no longer need this 3 year old white, westinghouse stove due to a generous donation from one of our sponsors. In good working order."
+    },
+          {
+            "location": "Toronto",
+            "description": "Black, Wooden dining set",
+            "imgUrl": "http://www.keitaibank.info/wp-content/uploads/2017/02/used-dining-room-chairs-designs-dreamer-within-dining-room-chairs-used-pertaining-to-comfortable.jpg",
+            "price": "500",
+            "longDescription":"This brand new dining room set comes with 4 chairs, a table, and dish cabinet. With a vintage and homely look, you can add character and charm to your new home with these gorgeous pieces."
+          },
+          {
+            "location": "Toronto",
+            "description": "Steel Undermount Kitchen Sink",
+            "imgUrl": "http://taleendtreasures.com/images/SSDblSink-3.JPG",
+            "price": "100",
+            "longDescription":"This undermount kitchen sink is in ok condition. Fits seamlessly into a countertop with a convenient rotating faucet and soap dispenser to complete any kitchen. L 17-⅛ in, W 17- ⅛ in, H 6 in, Drain size: 1-½ in."
+          },
+          {
+            "location": "Vaughan",
+            "description": "Grey Striped Chair",
+            "imgUrl": "https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/Gj8AAOSwWkJY9Mi9/$_86.JPG",
+            "price": "80",
+            "longDescription":"Wide and oversized, this large chair is a comfortable addition to the modern home. Make a statement with this Grey Striped feature chair in great condition at an unbelievably low price."
+          },
+          {
+            "location": "Vaughan",
+            "description": "Thrift Wooden Chair",
+            "imgUrl": "http://www.younghouselove.com/wp-content/uploads/2009/03web/thrift-store-modern-wood-ch.jpg",
+            "price": "10",
+            "longDescription":"Wooden and thrifty, this chair fits naturally in many places in the home both indoors and outdoors, making it a convenient go-to. This chair is still in good condition."
+    },
+          {
+            "location": "Toronto",
+            "description": "Blue Office Chair",
+            "imgUrl": "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/3fcAAOSwopRYd12B/$_86.JPG",
+            "price": "100",
+            "longDescription":"Barely used, this traditional high back office chair blends into the professional office space. Although it has a small tear in the back, the low price makes this good condition chair an easy buy."
+    },
+          {
+            "location": "Toronto",
+            "description": "White Kitchen Cabinets",
+            "imgUrl": "https://s-media-cache-ak0.pinimg.com/originals/2c/07/69/2c07694a34c084657995baa458451530.jpg",
+            "price": "700",
+            "longDescription":"Remodeling the kitchen is simple when you can use this complete set of warm, brown kitchen cabinets. This set came from a house recently demolished for our Habitat for Humanity ownership program. It was in such good condition, we couldn’t let it go. Make it part of your home today."
+    },
+        {
+            "location": "Toronto",
+            "description": "Futon Sofa Bed",
+            "imgUrl": "http://mommyessence.com/wp-content/uploads/2017/03/Coaster-Futon-Sofa-Bed-with-Removable-Arm-Rests-Brown-Vinyl-amazon-used-living-room-furniture.jpg",
+            "price": "250",
+            "longDescription":"This couch has been fully loved and is looking for a new place to call home. Use it as a couch or a futon bed. Even with a few small tears in the seating area, it is in good condition."
+    }
       ]
     }

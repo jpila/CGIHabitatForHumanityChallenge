@@ -18,7 +18,8 @@ import { ShopComponent } from './shop/shop.component'
 import 'rxjs/add/operator/do';
 import { FooterComponent } from './footer/footer.component';
 import {ReactiveFormsModule} from '@angular/forms';
-import { NewProductComponent } from './new-product/new-product.component'
+import { NewProductComponent } from './new-product/new-product.component';
+import { NewProductFormComponent } from './new-product-form/new-product-form.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NewProductComponent } from './new-product/new-product.component'
     HomeComponent,
     ShopComponent,
     FooterComponent,
-    NewProductComponent
+    NewProductComponent,
+    NewProductFormComponent
   ],
   imports: [
     BrowserModule,

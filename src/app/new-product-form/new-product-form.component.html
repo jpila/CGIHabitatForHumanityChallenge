@@ -1,0 +1,35 @@
+
+<form [formGroup]="form" autocomplete="off" novalidate class="product-form">
+
+    <fieldset>
+        <legend>Product</legend>
+        <div class="form-field">
+            <label>Description:</label>
+            <input name="title" formControlName="name">
+            <div class="field-error-message"
+                 *ngIf="isErrorVisible('description','required')">field is mandatory</div>
+        </div>
+
+        <div class="form-field">
+            <label>Price:</label>
+            <input name="title" formControlName="price">
+            <div class="field-error-message" *ngIf="isErrorVisible('price','required')">field is mandatory</div>
+          <!--  <div class="field-error-message" *ngIf="isErrorVisible('videoUrl','validUrl')">not a valid url</div> -->
+        </div>
+        <div class="form-field">
+            <label>ImageUrl:</label>
+            <input name="title" formControlName="imageUrl">
+            <div class="field-error-message" *ngIf="isErrorVisible('imageUrl','required')">field is mandatory</div>
+          <!--  <div class="field-error-message" *ngIf="isErrorVisible('videoUrl','validUrl')">not a valid url</div> -->
+        </div>
+        <div class="form-field">
+            <label>Location:</label>
+            <input name="title" formControlName="location">
+            <div class="field-error-message" *ngIf="isErrorVisible('location','required')">field is mandatory</div>
+        </div>
+        <div class="form-field">
+            <label>Long Description:</label>
+            <textarea name="description" formControlName="longDescription"></textarea>
+        </div>
+    </fieldset>
+</form>

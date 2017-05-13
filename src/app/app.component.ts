@@ -18,13 +18,13 @@ export class AppComponent {
   lesson$: FirebaseObjectObservable<any>;
   firstCourse: any;
   constructor(db: AngularFireDatabase, afAuth: AngularFireAuth,){
-    //populateDatabase();
+  //  populateDatabase();
     this.products$ = db.list('/Products');
     this.lesson$ = db.object('lessons/1');
     //const course$ = db.object('courses/-KjsPW_r5SPQJKwZy3ug');
     let q = this.products$.subscribe((val) => this.passData(val[0]));
 
-    this.products$.subscribe(console.log);
+  //  this.products$.subscribe(console.log);
 
   }
 

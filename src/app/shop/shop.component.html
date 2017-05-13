@@ -2,7 +2,6 @@
 
 <header>
   <h1>Featured Products</h1>
-  <button routerLink='addproduct'>Add New Product</button>
 </header>
 <div class=shop-wrapper>
 <div class=container *ngFor="let product of (products$ | async)">
@@ -14,10 +13,8 @@
     {{product.longDescription}}
   </p>
   <div class=button-container>
-  <button>Add to Cart</button>
+  <button name="{{product.$key}}" (click)="removeFromDB(product)">Add to Cart</button>
   </div>
 </div>
 </div>
-
-<router-outlet></router-outlet>
 <footer></footer>

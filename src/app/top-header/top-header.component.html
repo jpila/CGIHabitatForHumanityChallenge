@@ -6,10 +6,11 @@
 </header>
 
 <nav>
-  <a routerLink=""> Home </a>
+  <a routerLink="home" routerLinkActive=menu-active> Home </a>
   <a routerLink="">  About Us </a>
   <a routerLink="">  How We Help </a>
-  <a routerLink="shop"> Shop </a>
+  <a routerLink="shop" routerlinkActive="menu-active"> Shop </a>
+  <button (click)="addNewProduct()">Add New Product</button>
   <a routerLink="">  Get Involved </a>
   <a routerLink="">   Contact Us </a>
 </nav>
